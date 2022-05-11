@@ -184,20 +184,38 @@
 //     healthBar:10
 // }
 
-type Team = "red" | "blue" | "yellow"
-type Health = 1 | 5 | 10
+// type Team = "red" | "blue" | "yellow"
+// type Health = 1 | 5 | 10
 
-interface Player {
-    nickname:string,
-    team:Team
-    health:Health
-}
+// interface Player {
+//     nickname:string,
+//     team:Team
+//     health:Health
+// }
 
-const park : Player = {
-    nickname:"park",
-    team:"yellow",
-    health:10
-}
+// interface Person {
+//     nickname:string,
+//     team:Team
+//     health:Health
+// }
 
-console.log(park.nickname);
 
+// interface User{
+//     name:string
+
+// }
+//인터페이스는 타입스크립트에게 오브젝트라고 설명할때만 사용할 수 있다.
+// type User = {
+//     name:string
+
+// }
+// interface Player extends User {
+//     name:string
+// }
+// type Player = User &{
+//     name:string
+
+// }
+// const park : Player = {
+//     name:"park"
+// }
